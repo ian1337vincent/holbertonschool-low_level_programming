@@ -1,0 +1,5 @@
+#!/bin/bash
+$CFILE > c.c
+#!/bin/bash
+$CFILE > c.c
+
