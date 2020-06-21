@@ -18,5 +18,6 @@ int main(void)
 		digit++;
 	}
 	putchar('9');
+	putchar('\n');
 	return (0);
 }
