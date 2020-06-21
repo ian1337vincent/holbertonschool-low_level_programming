@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
 * main - prints all possible combos of 0-9
 *
@@ -16,7 +15,7 @@ int main(void)
 		putchar(digit);
 		putchar(comma);
 		putchar(space);
-		++digit;
+		digit++;
 	}
 	putchar('9');
 	return (0);
